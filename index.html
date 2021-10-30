@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Webhook Sender">
+	<meta name="description" content="A basic webhook sender for Discord bots.">
+	<meta name="author" content="Mokusei, Gabriel Aplok">
+	<link rel="icon" href="assets/images/favicon.ico">
+	<title>Manifest Generator</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="col-lg-8 mx-auto p-3 py-md-5">
+
+		<header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+			<a href="https://mokuseidev.github.io/manifest-generator/" class="d-flex align-items-center text-dark text-decoration-none">
+				<span class="fs-4">Webhook Sender</span>
+			</a>
+		</header>
+
+		<main>
+			<input type="text" id="url" placeholder="Bot Webhook URL" class="form-control" />
+			<br />
+			<input type="text" id="avatar_url" placeholder="Bot Avatar URL" class="form-control" />
+			<br />
+			<input type="text" id="username" placeholder="Bot Username" class="form-control" />
+			<br />
+			<textarea class="form-control" id="content" placeholder="Bot Message Content" rows="4"></textarea>
+			<br />
+			<center>
+				<button type="button" id="send" class="btn btn-primary">Send</button>
+			</center>
+			<p id="log"></p>
+		</main>
+
+		<footer class="pt-5 my-5 text-muted border-top">
+			<span class="site-footer-owner">Created by <a href="https://twitter.com/MokuseiDev">Mokusei</a>│<a href="https://twitter.com/GabrielAplok">Gabriel Aplok</a>.</span>
+		</br>
+		<span class="site-footer-credits">This site is not affiliated with Mojang Studios.</span>
+	</footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
